@@ -1,0 +1,259 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "org.example.Main",
+            "projectName": "Prueba"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreaCirculo",
+            "request": "launch",
+            "mainClass": "AreaCirculo",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreaDelCuadrado",
+            "request": "launch",
+            "mainClass": "AreaDelCuadrado",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuenasTardes",
+            "request": "launch",
+            "mainClass": "BuenasTardes",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DatosCompa",
+            "request": "launch",
+            "mainClass": "DatosCompa",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio10",
+            "request": "launch",
+            "mainClass": "Ejercicio10",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio3",
+            "request": "launch",
+            "mainClass": "Ejercicio3",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio8",
+            "request": "launch",
+            "mainClass": "Ejercicio8",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio9",
+            "request": "launch",
+            "mainClass": "Ejercicio9",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch EjerciciosExpresiones",
+            "request": "launch",
+            "mainClass": "EjerciciosExpresiones",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Horario",
+            "request": "launch",
+            "mainClass": "Horario",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema3Ejercicio1",
+            "request": "launch",
+            "mainClass": "LibroTema3.Tema3Ejercicio1",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongitudCircunferencia",
+            "request": "launch",
+            "mainClass": "LongitudCircunferencia",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadorLogicoAnd",
+            "request": "launch",
+            "mainClass": "OperadorLogicoAnd",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadorLogicoNot",
+            "request": "launch",
+            "mainClass": "OperadorLogicoNot",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadorLogicoOr",
+            "request": "launch",
+            "mainClass": "OperadorLogicoOr",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PiramideLlena",
+            "request": "launch",
+            "mainClass": "PiramideLlena",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PiramideSinRelleno",
+            "request": "launch",
+            "mainClass": "PiramideSinRelleno",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prueba",
+            "request": "launch",
+            "mainClass": "Prueba",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch TablaDeColores",
+            "request": "launch",
+            "mainClass": "TablaDeColores",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch TablaDeVariable",
+            "request": "launch",
+            "mainClass": "TablaDeVariable",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Ejercicio1",
+            "request": "launch",
+            "mainClass": "Tema2Ejercicio1",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Ejercicio2",
+            "request": "launch",
+            "mainClass": "Tema2Ejercicio2",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Ejercicio3",
+            "request": "launch",
+            "mainClass": "Tema2Ejercicio3",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Ejercicio4",
+            "request": "launch",
+            "mainClass": "Tema2Ejercicio4",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Ejercicio5",
+            "request": "launch",
+            "mainClass": "Tema2Ejercicio5",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Ejercicio6",
+            "request": "launch",
+            "mainClass": "Tema2Ejercicio6",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Ejercicio7",
+            "request": "launch",
+            "mainClass": "Tema2Ejercicio7",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Ejercicio8",
+            "request": "launch",
+            "mainClass": "Tema2Ejercicio8",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Prueba1",
+            "request": "launch",
+            "mainClass": "Tema2Prueba1",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Prueba2_1",
+            "request": "launch",
+            "mainClass": "Tema2Prueba2_1",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Prueba2_2",
+            "request": "launch",
+            "mainClass": "Tema2Prueba2_2",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tema2Prueba3_3",
+            "request": "launch",
+            "mainClass": "Tema2Prueba3_3",
+            "projectName": "java_880fffe2"
+        },
+        {
+            "type": "java",
+            "name": "Launch VolumenEsfera",
+            "request": "launch",
+            "mainClass": "VolumenEsfera",
+            "projectName": "java_880fffe2"
+        }
+    ]
+}
