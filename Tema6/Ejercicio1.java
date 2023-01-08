@@ -1,6 +1,6 @@
 /*Este programa está hecho por: David Ortiz Corchero
 *Curso: 1ºDAM Tarde
-*Descripción del programa: Un programa que que muestre la tirada de tres dados. Se debe mostrar
+*Descripción del programa: Un programa que muestre la tirada de tres dados. Se debe mostrar
 *también la suma total (los puntos que suman entre los tres dados).
 */
 
