@@ -29,12 +29,14 @@ public class Ejemplo1 {
     for (int cont = 0; cont <= 9; cont++) { // Mostrar todos los elementos y posiciones
       System.out.println("En la posición " + cont + " se encuentra: " + x[cont]);
     }
+
     System.out.println("---------------------------------------------------------------");
     System.out.print("¿Que posición quieres mostrar?(Del 0 al 9): "); // Mostrar la posición preguntada
     numero = s.nextInt();
     System.out.println("En la posición " + numero + " se encuentra: " + x[numero]);
 
     System.out.println("---------------------------------------------------------------");
+
     for (int cont = 0; cont <= 9; cont += 2) { // Mostrar los numeros pares y su suma
       System.out.println("En la posicón " + cont + " que es par, se encuentra: " + x[cont]);
       sumaPar += x[cont];
