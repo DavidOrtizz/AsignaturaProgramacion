@@ -8,7 +8,7 @@ import java.util.Scanner;
 * 3. Mostrar las posiciones pares y su suma.
 */
 
-public class Ejemplo1 {
+public class Tema7Ejemplo1 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     int numero;

@@ -5,7 +5,7 @@
 */
 
 public class Ejercicio1 {
-  public static void main(String[] args) {
+  public statTema7Ejercicio1in(String[] args) {
     int suma;
     int numero;
 
