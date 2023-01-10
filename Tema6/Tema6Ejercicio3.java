@@ -4,7 +4,7 @@
 *de 40 cartas: 2, 3, 4, 5, 6, 7, sota, caballo, rey y as.
 */
 
-public class Ejercicio3 {
+public class Tema6Ejercicio3 {
   public static void main(String[] args) {
     int cartaTocada;
     int categoriaTocada;

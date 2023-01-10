@@ -8,7 +8,7 @@ import java.util.Scanner;
 *menor o mayor que el número secreto.
 */
 
-public class Ejercicio6 {
+public class Tema6Ejercicio6 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     int numero = 0;

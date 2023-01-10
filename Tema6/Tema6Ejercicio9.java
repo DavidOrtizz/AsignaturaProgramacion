@@ -5,7 +5,7 @@
 *El programa deberá decir al final cuántos números se han generado.
 */
 
-public class Ejercicio9 {
+public class Tema6Ejercicio9 {
   public static void main(String[] args) {
     int numero = 0;
     int contador = 0;

@@ -7,7 +7,7 @@
 *Para convertir un número en una cadena de caracteres podemos usar String.valueOf(n).
 */
 
-public class Ejercicio2 {
+public class Tema6Ejercicio2 {
   public static void main(String[] args) {
     int cartaTocada;
     int categoriaTocada;

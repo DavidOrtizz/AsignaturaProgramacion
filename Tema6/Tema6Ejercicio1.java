@@ -4,7 +4,7 @@
 *también la suma total (los puntos que suman entre los tres dados).
 */
 
-public class Ejercicio1 {
+public class Tema6Ejercicio1 {
   public statTema7Ejercicio1in(String[] args) {
     int suma;
     int numero;

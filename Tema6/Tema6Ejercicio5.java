@@ -5,7 +5,7 @@
 *de esos números.
 */
 
-public class Ejercicio5 {
+public class Tema6Ejercicio5 {
   public static void main(String[] args) {
     int max = 0;
     int min = 0;

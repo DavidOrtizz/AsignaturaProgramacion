@@ -5,7 +5,7 @@
 *Las líneas deben tener una longitud aleatoria entre 1 y 40 caracteres.
 */
 
-public class Ejercicio10 {
+public class Tema6Ejercicio10 {
   public static void main(String[] args) {
     int linea = 0;
     int letra;
