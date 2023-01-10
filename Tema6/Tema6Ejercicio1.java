@@ -5,7 +5,7 @@
 */
 
 public class Tema6Ejercicio1 {
-  public statTema7Ejercicio1in(String[] args) {
+  public Tema7Ejercicio1in(String[] args) {
     int suma;
     int numero;
 

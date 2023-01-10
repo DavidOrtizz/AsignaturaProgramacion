@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Tema7Ejercicio7",
-            "request": "launch",
-            "mainClass": "Tema7Ejercicio7",
-            "projectName": ""
-        },
-        {
-            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

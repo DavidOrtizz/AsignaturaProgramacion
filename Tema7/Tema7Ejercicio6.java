@@ -11,19 +11,21 @@ public class Tema7Ejercicio6 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     int[] numero = new int[15];
+    int[] numero2 = new int[15];
 
-    System.out
-        .println("Introduce 15 números para guardarlo en el array y voy a hacer que pase a la posicion siguiente");
-    for (int cont = 1; cont <= 15; cont++) {
-      System.out.print("Introduce el número de la posición " + (cont - 1) + " : ");
-      if (cont == 15) {
-        numero[0] = s.nextInt();
+    System.out.print("Introduce 15 números para guardarlo en el array ");
+    System.out.println("y voy a hacer que pase a la posicion siguiente");
+    for (int cont = 0; cont < 15; cont++) {
+      System.out.print("Introduce el número de la posición " + (cont) + " : ");
+      numero[cont] = s.nextInt();
+      if (cont == 14) {
+        numero2[0] = numero[cont];
       } else {
-        numero[cont] = s.nextInt();
+        numero2[cont + 1] = numero[cont];
       }
     }
     for (int cont = 0; cont < 15; cont++) {
-      System.out.println("En la posición " + cont + " se encuentra guardado el número: " + numero[cont]);
+      System.out.println("En la posición " + cont + " se encuentra guardado el número: " + numero2[cont]);
     }
   }
 }
