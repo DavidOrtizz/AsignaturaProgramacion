@@ -7,16 +7,16 @@
 
 public class Tema7Ejercicio2 {
   public static void main(String[] args) {
-    char[] caracter = new char[10];
-    caracter[0] = 'a';
-    caracter[1] = 'x';
-    caracter[4] = '@';
-    caracter[6] = ' ';
-    caracter[7] = '+';
-    caracter[8] = 'Q';
+    char[] letra = new char[10];
+    letra[0] = 'a';
+    letra[1] = 'x';
+    letra[4] = '@';
+    letra[6] = ' ';
+    letra[7] = '+';
+    letra[8] = 'Q';
 
     for (int cont = 0; cont <= 9; cont++) {
-      System.out.println("En la posición " + cont + " se encuentra el caracter: " + caracter[cont]);
+      System.out.println("En la posición " + cont + " se encuentra el caracter: " + letra[cont]);
     }
   }
 }

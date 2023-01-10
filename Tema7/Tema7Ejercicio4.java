@@ -12,17 +12,13 @@ public class Tema7Ejercicio4 {
     int[] cuadrado = new int[20];
     int[] cubo = new int[20];
 
-    for (int cont = 0; cont <= 19; cont++) { // Genera y guarda los números aleatorios
-      numero[cont] = (int) (Math.random() * 101);
-    }
-    for (int cont = 0; cont <= 19; cont++) { // Dandole valor al cuadrado
+    for (int cont = 0; cont <= 19; cont++) {
+      numero[cont] = (int) (Math.random() * 101); // Genera y guarda los números aleatorios
       cuadrado[cont] = numero[cont] * numero[cont];
-    }
-    for (int cont = 0; cont <= 19; cont++) {// Dandole valor al cubo
       cubo[cont] = cuadrado[cont] * numero[cont];
     }
     for (int cont = 0; cont <= 19; cont++) {
-      System.out.println("| " + numero[cont] + " | " + cuadrado[cont] + " | " + cubo[cont]);
+      System.out.printf(" | %3d │ %5d │%8d\n", numero[cont], cuadrado[cont], cubo[cont]);
     }
   }
 }
