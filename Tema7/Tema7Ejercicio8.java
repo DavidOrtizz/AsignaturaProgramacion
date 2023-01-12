@@ -19,9 +19,10 @@ public class Tema7Ejercicio8 {
       System.out.print("En el mes de " + mes[cont] + " hay una temperatura de: ");
       calor[cont] = s.nextInt();
     }
+
     for (int cont = 0; cont < 12; cont++) {
       System.out.print(mes[cont] + ": "); // Primero sale el mes
-      for (int cont2 = 0; cont2 < calor[cont]; cont++) { // Luego sale las barras con el máximo indicado
+      for (int cont2 = 0; cont2 < calor[cont]; cont2++) { // Luego sale las barras con el máximo indicado
         System.out.print("#");
       }
     }
