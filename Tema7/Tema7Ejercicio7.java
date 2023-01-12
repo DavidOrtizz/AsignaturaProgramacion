@@ -13,10 +13,9 @@ public class Tema7Ejercicio7 {
     Scanner s = new Scanner(System.in);
     int valor1 = 0;
     int valor2 = 0;
-    int resto1;
-    int resto2;
     int[] numero = new int[100];
     int[] numero2 = new int[100];
+
     for (int cont = 0; cont < 100; cont++) { // Genera los numeros aleatorios
       numero[cont] = (int) (Math.random() * 21);
       numero2[cont] = numero[cont]; // Guardo el array
@@ -30,20 +29,18 @@ public class Tema7Ejercicio7 {
 
     for (int cont = 0; cont < 100; cont++) {
       if (numero2[cont] < 10) { // Si el numero es de un dígito
-        if (numero2[cont] == valor1) {
-          numero2[cont] = valor2;
-          System.out.print("'" + numero2[cont] + "'" + " ");
-        } else { // Falla a partir de aqui
-          resto1 = numero2[cont] / 10;
-          resto2 = numero2[cont] % 10;
-          if (resto1 == valor1) {
-            resto1 = valor2;
-          }
-          if (resto2 == valor1) {
-            resto2 = valor2;
-          }
-          numero2[cont] = (resto1 * 10) + resto2;
-          System.out.print(numero[cont] + " ");
+        if (numero2[cont] == valor1) { // Comprueba si el numero seleccionado es igual
+          numero2[cont] = valor2; // Lo igual al numero que queremos que ponga
+          System.out.print("'" + numero2[cont] + "'" + " "); // Le añade el entrecomillado
+        } else { // Si no es igual lo imprime sin ninguna modificación
+          System.out.print(numero2[cont] + " ");
+        }
+      } else { // Si el numero es de mas de un digito
+        if (numero2[cont] == valor1) { // Comprueba si el numero seleccionado es igual
+          numero2[cont] = valor2; // Lo igual al numero que queremos que ponga
+          System.out.print("'" + numero2[cont] + "'" + " "); // Le añade el entrecomillado
+        } else { // Si no es igual lo imprime sin ninguna modificación
+          System.out.print(numero2[cont] + " ");
         }
       }
     }
