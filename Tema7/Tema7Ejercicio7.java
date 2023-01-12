@@ -28,20 +28,11 @@ public class Tema7Ejercicio7 {
     valor2 = s.nextInt();
 
     for (int cont = 0; cont < 100; cont++) {
-      if (numero2[cont] < 10) { // Si el numero es de un dígito
-        if (numero2[cont] == valor1) { // Comprueba si el numero seleccionado es igual
-          numero2[cont] = valor2; // Lo igual al numero que queremos que ponga
-          System.out.print("'" + numero2[cont] + "'" + " "); // Le añade el entrecomillado
-        } else { // Si no es igual lo imprime sin ninguna modificación
-          System.out.print(numero2[cont] + " ");
-        }
-      } else { // Si el numero es de mas de un digito
-        if (numero2[cont] == valor1) { // Comprueba si el numero seleccionado es igual
-          numero2[cont] = valor2; // Lo igual al numero que queremos que ponga
-          System.out.print("'" + numero2[cont] + "'" + " "); // Le añade el entrecomillado
-        } else { // Si no es igual lo imprime sin ninguna modificación
-          System.out.print(numero2[cont] + " ");
-        }
+      if (numero2[cont] == valor1) { // Comprueba si el numero seleccionado es igual
+        numero2[cont] = valor2; // Lo igual al numero que queremos que ponga
+        System.out.print("'" + numero2[cont] + "'" + " "); // Le añade el entrecomillado
+      } else { // Si no es igual lo imprime sin ninguna modificación
+        System.out.print(numero2[cont] + " ");
       }
     }
   }

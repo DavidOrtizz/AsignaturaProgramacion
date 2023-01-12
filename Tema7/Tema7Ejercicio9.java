@@ -18,8 +18,7 @@ public class Tema7Ejercicio9 {
       numero[cont] = s.nextInt();
     }
     for (int cont = 0; cont < 8; cont++) {
-      comprobar = numero[cont] % 2;
-      if (comprobar == 0) {
+      if (numero[cont] % 2 == 0) {
         System.out.println(numero[cont] + " es par");
       } else {
         System.out.println(numero[cont] + " es impar");
