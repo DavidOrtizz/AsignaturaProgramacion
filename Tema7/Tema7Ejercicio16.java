@@ -13,7 +13,7 @@ public class Tema7Ejercicio16 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     int tam = 20;
-    int menu = 0;
+    int menu;
     int[] num = new int[tam];
 
     for (int cont = 0; cont < tam; cont++) { // Genera los números aleatorios y los muestra
@@ -21,7 +21,7 @@ public class Tema7Ejercicio16 {
       System.out.print(num[cont] + " ");
     }
 
-    System.out.println();
+    System.out.println(); // Salto de linea
     System.out.print("¿Qué números quiere resaltar? (1 - los múltiplos de 5, 2 - los múltiplos de 7): ");
     menu = s.nextInt();
 
