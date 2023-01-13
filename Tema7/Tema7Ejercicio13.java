@@ -12,8 +12,8 @@ public class Tema7Ejercicio13 {
     Scanner s = new Scanner(System.in);
     int tam = 100;
     int[] num = new int[tam];
-    int min;
-    int max;
+    int min = 0;
+    int max = 0;
     int menu;
 
     for (int cont = 0; cont < tam; cont++) { // Genera los números aleatorios y los muestra
