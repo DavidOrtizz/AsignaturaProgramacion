@@ -21,9 +21,14 @@ public class Tema7Ejercicio1Bi {
     num[2][3] = 9;
     num[2][5] = 11;
 
+    System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s %-15s", "Array num", "Columna 0", "Columna 1", "Columna 2",
+        "Columna 3", "Columna 4", "Columna 5");
+    System.out.println();
+    System.out.println(
+        "\t   |----------------|---------------|---------------|---------------|---------------|---------------|");
     for (int cont = 0; cont < fila; cont++) {
       for (int cont2 = 0; cont2 < columna; cont2++) {
-        System.out.print(num[cont][cont2] + " ");
+        System.out.printf("\t          %-5s", num[cont][cont2]);
       }
       System.out.println();
     }
