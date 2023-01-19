@@ -21,7 +21,7 @@ public class Tema7Visual1 {
       for (int x = 0; x < tamcolumnas; x++) { // Contador para pasar pot todas las columnas
         System.out.print(posicion[x][y] + " ");
       }
-      System.out.println();
+      System.out.println(); // Salto de linea
     }
   }
 }
