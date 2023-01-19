@@ -8,7 +8,7 @@
 
 public class Tema7Ejercicio10 {
   public static void main(String[] args) {
-    int tam = 20; //Tamaño del array
+    int tam = 20; // Tamaño del array
     int[] numero = new int[tam];
     int[] copia = new int[tam];
 
@@ -17,9 +17,9 @@ public class Tema7Ejercicio10 {
       copia[cont] = numero[cont];
     }
 
-    for(int cont=0; cont<20;cont++){
-      if(){
-        
+    for (int cont = 0; cont < 20; cont++) {
+      if (numero[cont] % 2 == 0) {
+
       }
     }
   }
