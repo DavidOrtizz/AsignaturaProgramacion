@@ -1,6 +1,6 @@
 /*Este programa está hecho por: David Ortiz Corchero
 *Curso: 1ºDAM Tarde
-*Descripción del programa: Hacer el programa que esta dibujado en la pizarra
+*Descripción del programa: Hacer el programa que esta dibujado en la pizarra tabla pares
 */
 
 public class Tema7Visual1 {
