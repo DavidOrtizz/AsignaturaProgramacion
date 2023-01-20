@@ -1,11 +1,11 @@
 /*Este programa está hecho por: David Ortiz Corchero
 *Curso: 1ºDAM Tarde
-*Descripción del programa: Hacer el programa que esta dibujado en la pizarra 
+*Descripción del programa: Hacer el programa que esta dibujado en la pizarra potencias
 */
 
 public class Tema7Visual3 {
   public static void main(String[] args) {
-    final int num = 2; //
+    final int num = 2; // Base de la potencia
     long resultado = 0;
     int tamfila = 7;
     int tamcolumnas = 5;
