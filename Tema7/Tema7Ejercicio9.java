@@ -10,7 +10,6 @@ public class Tema7Ejercicio9 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     int[] numero = new int[8];
-    int comprobar;
 
     System.out.println("Introduce 8 numeros y te diré si son par o impar");
     for (int cont = 0; cont < 8; cont++) {
