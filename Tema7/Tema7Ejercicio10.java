@@ -9,18 +9,38 @@
 public class Tema7Ejercicio10 {
   public static void main(String[] args) {
     int tam = 20; // Tamaño del array
-    int[] numero = new int[tam];
-    int[] copia = new int[tam];
+    int[] num = new int[tam];
+    int[] par = new int[tam];
+    int pares = 0;
+    int[] impar = new int[tam];
+    int impares = 0;
 
-    for (int cont = 0; cont < 20; cont++) { // Genera los 20 números aleatorios
-      numero[cont] = (int) (Math.random() * 101);
-      copia[cont] = numero[cont];
+    for (int cont = 0; cont < tam; cont++) {
+      num[cont] = (int) (Math.random() * 101); // Generamos el número y lo guardamos
+      if (num[cont] % 2 == 0) {
+        par[pares] = num[cont];
+        pares++;
+      } else {
+        impar[impares] = num[cont];
+        impares++;
+      }
     }
 
-    for (int cont = 0; cont < 20; cont++) {
-      if (numero[cont] % 2 == 0) {
+    System.out.println("Array inicial:");
+    for (int cont = 0; cont < tam; cont++) {
+      System.out.print(num[cont] + " ");
+    }
+    System.out.println();
+    for (int cont = 0; cont < pares; cont++) {
+      num[cont] = par[cont];
+    }
+    for (int cont = pares; cont < tam; cont++) {
+      num[cont] = impar[cont - pares];
+    }
 
-      }
+    System.out.println("Array con los pares al principio:");
+    for (int cont = 0; cont < tam; cont++) {
+      System.out.print(num[cont] + " ");
     }
   }
 }
