@@ -8,7 +8,7 @@
 
 public class Tema7Ejercicio21 {
   public static void main(String[] args) {
-    final int tam = 15;
+    int tam = 15;
     int[] num = new int[tam];
     int digito = 0;
 
@@ -21,15 +21,11 @@ public class Tema7Ejercicio21 {
     System.out.println();
     System.out.println("Array cincuerizando:");
     for (int cont = 0; cont < tam; cont++) {
-      if (num[cont] % 5 == 0) {
-        digito = num[cont] % 10;
-        if (digito == 0) {
-          System.out.print(num[cont] + " ");
-        } else if (digito == 5) {
-          System.out.print(num[cont] + " ");
-        } else {
-          num[cont] += 1;
-          cont = cont - 1;
+      if (num[cont] % 5 != 0) { // Cumprueba que el numero es divisible por 5
+        digito = num[cont] % 10; // Saco el ultimo dígito
+        if (digito != 5 && digito != 0) { // Si no es ni 5 ni 0
+          num[cont] += 1; // Se le suma 1
+          cont--;// Repetimos el número
         }
       } else {
         System.out.print(num[cont] + " ");
