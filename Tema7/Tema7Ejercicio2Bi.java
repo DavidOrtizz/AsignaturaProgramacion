@@ -12,10 +12,9 @@ public class Tema7Ejercicio2Bi { // Mal creado
     Scanner s = new Scanner(System.in);
     int fila = 4;
     int columna = 5;
-    int sumaX = 0;
-    int sumaY = 0;
     int suma = 0;
-    int totalSuma = 0;
+    int aux = 0;
+    int total = 0;
     int[][] num = new int[fila][columna];
 
     System.out.println("Introduce 20 números enteros");
@@ -28,14 +27,23 @@ public class Tema7Ejercicio2Bi { // Mal creado
 
     for (int cont = 0; cont < fila; cont++) {
       for (int cont2 = 0; cont2 < columna; cont2++) {
-        System.out.printf("%4s", num[cont][cont2]);
-        suma = +num[cont][cont2];
+        System.out.printf("%18s", num[cont][cont2]);
+        suma += num[cont][cont2];
       }
-      System.out.printf("\t %4s", "Fila " + cont + " = " + suma);
-      totalSuma += suma; // Suma total de la columna
+      System.out.printf("%18s", "Fila " + cont + " = " + suma);
+      aux += suma; // Suma total de la columna
       suma = 0;
       System.out.println();
     }
-    System.out.println();
+    for (int y = 0; y < columna; y++) {
+      for (int x = 0; x < fila; x++) {
+        suma += num[x][y];
+      }
+      System.out.printf("%18s", "Columna " + y + " = " + suma);
+      aux += suma;
+      suma = 0;
+    }
+    total = aux;
+    System.out.printf("%18s", "Total = " + total);
   }
 }
