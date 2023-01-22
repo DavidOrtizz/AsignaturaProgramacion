@@ -1,4 +1,4 @@
-/*Este programa está hecho por: David Ortiz Corchero (Corregido por Pablo)
+/*Este programa está hecho por: David Ortiz Corchero
 *Curso: 1ºDAM Tarde
 *Descripción del programa: Definir un programa que genere 10 números enteros aleatorios entre 0 y 200
 *ambos incluidos y que los almacene en un array. A continuación, el programa debe mostrar el contenido 
@@ -9,7 +9,7 @@
 
 public class Tema7Ejercicio18 {
   public static void main(String[] args) {
-    final int tam = 10;
+    int tam = 10;
     int[] num = new int[tam];
 
     System.out.println("Array original");
@@ -32,7 +32,7 @@ public class Tema7Ejercicio18 {
         aux = num[cont];
         num[p] = num[cont];
         num[cont] = aux;
-        p += 2;
+        p += 1;
       }
     }
 
