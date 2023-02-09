@@ -10,12 +10,12 @@ public class Multiplicacion {
    * 
    * @param a y b son los números que van a ser multiplicados
    * 
-   * @return el resultado de la multiplicación
+   * @return solucion el resultado de la multiplicación
    */
   public static double multiplica(double a, double b) {
     double solucion = 0;
     solucion = a * b;
-    Sustem.out.println("El resultado de la multiplicación es: " + solucion);
+    System.out.println("El resultado de la multiplicación es: " + solucion);
     return solucion;
   }
 }
