@@ -13,10 +13,8 @@ public class Minimo {
    */
   public static int minimo(int a, int b) {
     if (a > b) {
-      System.out.println("El número mínimo es: " + b);
       return b;
     } else {
-      System.out.println("El número mínimo es: " + a);
       return a;
     }
   }

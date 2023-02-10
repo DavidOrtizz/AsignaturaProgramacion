@@ -4,6 +4,11 @@ import misFunciones.DimeSigno;
 import misFunciones.Rectangulo;
 import misFunciones.ValorN;
 
+/*Este programa está hecho por: David Ortiz Corchero
+*Curso: 1ºDAM Tarde
+*Descripción del programa: Prueba de funciones matemáticas
+*/
+
 public class PruebaFunciones {
   public static void main(String[] args) {
     double a = 12;
@@ -12,7 +17,7 @@ public class PruebaFunciones {
     int n = 8;
 
     Multiplicacion.multiplica(a, b);
-    Minimo.minimo((int) a, (int) b);
+    System.out.println("El número mínimo es " + Minimo.minimo((int) a, (int) b));
     System.out.println("El signo que tiene es: " + DimeSigno.dimeSigno(c));
     System.out.println("El área del rectangulo es: " + Rectangulo.areaRectangulo(a, b));
     System.out.println("El perímetro del rectangulo es: " + Rectangulo.perimetroRectangulo(a, b));
