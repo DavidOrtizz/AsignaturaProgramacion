@@ -14,16 +14,16 @@ import misFunciones.SaberDNI;
 public class Tema8Ejercicio18 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
-    long dni;
+    int dni;
     String letra = "";
 
     System.out.print("Introduce tu número de DNI para saber la letra: ");
-    dni = s.nextLong();
+    dni = s.nextInt();
 
     letra = SaberDNI.saberDNI(dni);
 
     if (letra == "") {
-      System.out.println("No has introducido una número de DNI correcto");
+      System.out.println("No has introducido un número de DNI correcto");
     } else {
       System.out.println("La letra de tu DNI es: " + letra);
       System.out.println(dni + letra);
