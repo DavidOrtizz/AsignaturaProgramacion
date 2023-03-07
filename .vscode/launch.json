@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PedidosPizza",
+            "request": "launch",
+            "mainClass": "PedidosPizza"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
