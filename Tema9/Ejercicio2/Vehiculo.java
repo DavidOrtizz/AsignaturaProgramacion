@@ -12,7 +12,7 @@ public abstract class Vehiculo {
   }
 
   public static int getKmTotales() {
-    return Vehiculo.getkmTotales;
+    return kmTotales;
   }
 
   public void recorre(int km) {
