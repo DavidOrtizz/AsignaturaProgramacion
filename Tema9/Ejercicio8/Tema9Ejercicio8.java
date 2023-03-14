@@ -7,20 +7,20 @@
 
 public class Tema9Ejercicio8 {
   public static void main(String[] args) {
-    Terminal Mario = new Terminal("665 21 78 12");
-    Terminal David = new Terminal("624 97 56 15");
-    Terminal Marina = new Terminal("614 33 49 22");
-    Terminal Cristina = new Terminal("612 02 77 47");
+    Terminal mario = new Terminal("665 21 78 12");
+    Terminal david = new Terminal("624 97 56 15");
+    Terminal marina = new Terminal("614 33 49 22");
+    Terminal cristina = new Terminal("612 02 77 47");
 
-    System.out.println(David);
-    System.out.println(Cristina);
+    System.out.println(david);
+    System.out.println(cristina);
 
-    Marina.llama(David, 520);
-    Mario.llama(Cristina, 458);
+    marina.llama(david, 520);
+    mario.llama(cristina, 458);
 
-    System.out.println(David);
-    System.out.println(Mario);
-    Cristina.mensaje();
-    System.out.println(Cristina);
+    System.out.println(david);
+    System.out.println(mario);
+    cristina.mensaje();
+    System.out.println(cristina);
   }
 }

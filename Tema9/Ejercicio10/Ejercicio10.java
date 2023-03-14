@@ -16,19 +16,19 @@
 
 public class Ejercicio10 {
   public static void main(String[] args) {
-    Ameba Patricio = new Ameba();
+    Ameba patricio = new Ameba();
 
-    Patricio.come(2);
-    System.out.println(Patricio);
+    patricio.come(2);
+    System.out.println(patricio);
 
-    Ameba Arenita = new Ameba();
+    Ameba arenita = new Ameba();
 
-    Arenita.come(4);
-    System.out.println(Arenita);
-    Patricio.come(Arenita);
-    System.out.println(Patricio);
-    System.out.println(Arenita);
-    Arenita.come(3);
-    System.out.println(Arenita);
+    arenita.come(4);
+    System.out.println(arenita);
+    aatricio.come(arenita);
+    System.out.println(patricio);
+    System.out.println(arenita);
+    arenita.come(3);
+    System.out.println(arenita);
   }
 }

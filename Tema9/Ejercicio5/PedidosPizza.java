@@ -9,18 +9,18 @@
 
 public class PedidosPizza {
   public static void main(String[] args) {
-    Pizza Jose = new Pizza("margarita", "mediana");
-    Pizza Maria = new Pizza("funghi", "familiar");
+    Pizza jose = new Pizza("margarita", "mediana");
+    Pizza maria = new Pizza("funghi", "familiar");
 
-    Maria.sirve();
+    maria.sirve();
 
-    Pizza Carlos = new Pizza("cuatro quesos", "mediana");
+    Pizza carlos = new Pizza("cuatro quesos", "mediana");
 
     System.out.println(jose);
-    System.out.println(Maria);
-    System.out.println(Carlos);
-    Maria.sirve();
-    Carlos.valoracion();
+    System.out.println(maria);
+    System.out.println(carlos);
+    maria.sirve();
+    carlos.valoracion();
     System.out.println("Se han pedido un total de: " + Pizza.getTotalPedidas() + " pizzas");
     System.out.println("Se han servido un total de: " + Pizza.getTotalServidas() + " pizzas");
   }
