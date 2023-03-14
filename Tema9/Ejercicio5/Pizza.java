@@ -35,4 +35,8 @@ public class Pizza {
       System.out.println("Esa pizza ya se ha servido");
     }
   }
+
+  public void valoracion() {
+    System.out.println("Estaba muy rica la pizza");
+  }
 }

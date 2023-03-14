@@ -1,4 +1,4 @@
-public public class Zona {
+public abstract class Zona {
   private int entradasPorVender;
 
   public Zona(int n) {
@@ -19,8 +19,7 @@ public public class Zona {
     if (this.entradasPorVender == 0) {
       System.out.println("Lo siento, las entradas para esa zona están agotadas.");
     } else if (this.entradasPorVender < n) {
-      System.out.println("Sólo me quedan " + this.entradasPorVender
-          + " entradas para esa zona.");
+      System.out.println("Sólo me quedan " + this.entradasPorVender + " entradas para esa zona.");
     }
     if (this.entradasPorVender >= n) {
       entradasPorVender -= n;
