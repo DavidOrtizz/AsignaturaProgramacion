@@ -1,4 +1,4 @@
-public class Ameba {
+public abstract class Ameba {
   int peso; // peso en microgramos
 
   public Ameba() {

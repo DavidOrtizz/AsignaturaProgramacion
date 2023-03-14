@@ -10,18 +10,18 @@
 
 public class Tema9Ejercicio9 {
   public static void main(String[] args) {
-    Movil David = new Movil("654 45 82 22", "Simyo");
-    Movil Marina = new Movil("624 06 09 05", "mono");
-    Movil Oscar = new Movil("627 11 01 74", "bisonte");
+    Movil david = new Movil("654 45 82 22", "Simyo");
+    Movil marina = new Movil("624 06 09 05", "mono");
+    Movil oscar = new Movil("627 11 01 74", "bisonte");
 
-    System.out.println(David);
-    System.out.println(Marina);
-    David.llama(Marina, 320);
-    Oscar.llama(David, 200);
-    Marina.llama(David, 550);
-    System.out.println(David);
-    System.out.println(Marina);
-    System.out.println(Oscar);
+    System.out.println(david);
+    System.out.println(marina);
+    david.llama(marina, 320);
+    oscar.llama(david, 200);
+    marina.llama(david, 550);
+    System.out.println(david);
+    System.out.println(marina);
+    System.out.println(oscar);
 
     Oscar.videollamada();
     Marina.videollamada();
