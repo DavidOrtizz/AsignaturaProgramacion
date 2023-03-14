@@ -1,4 +1,12 @@
 public class Canario extends Ave {
+
+  public Canario() {
+  }
+
+  public Canario(Sexo s) {
+    super(s);
+  }
+
   public void ruido() {
     System.out.println("Pio pio");
   }
