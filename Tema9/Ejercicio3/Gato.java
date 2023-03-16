@@ -1,6 +1,6 @@
-public class Gato extends Mamifero {
+public class GatoArray extends Mamifero {
 
-  public Gato(Sexo s) {
+  public GatoArray(Sexo s) {
     super(s);
   }
 

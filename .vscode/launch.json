@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tema9Ejercicio1Array",
+            "request": "launch",
+            "mainClass": "Tema9Ejercicio1Array",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "PedidosPizza",
             "request": "launch",
             "mainClass": "PedidosPizza"
