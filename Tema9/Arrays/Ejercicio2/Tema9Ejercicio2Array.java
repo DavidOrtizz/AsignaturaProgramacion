@@ -22,5 +22,10 @@ public class Tema9Ejercicio2Array {
     for (int i = 0; i < tam; i++) {
       System.out.println("El gato nº" + i + " es de color " + gato[i].getColor());
     }
+
+    gato[1].come(4);
+    gato[3].come(3);
+    gato[2].come(2);
+    gato[0].come(2);
   }
 }
