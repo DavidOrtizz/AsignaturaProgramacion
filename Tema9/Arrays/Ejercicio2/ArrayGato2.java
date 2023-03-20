@@ -15,11 +15,11 @@ public class ArrayGato2 {
   }
 
   public void come(int comida) {
-    if (comida != 0) {
+    if (comida <= 10) {
       this.comida += 1;
       comida -= 1;
       for (int i = 0; i <= this.comida; i++) {
-        if (comida != 0) {
+        if (comida != 10) {
           System.out.print("miau "); // Por cada comida que haya comido hace el sonido miau
         } else {
           System.out.println(" ya no hay comida"); // Cuando comida es 0
