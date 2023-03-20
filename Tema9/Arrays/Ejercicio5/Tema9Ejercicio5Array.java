@@ -18,6 +18,8 @@ import java.util.Scanner;
 * 
 * La entrada y salida de mercancía supone respectivamente el incremento y decremento de stock de un determinado artículo. 
 * Hay que controlar que no se pueda sacar más mercancía de la que hay en el almacén
+*
+* Cambio realizado: Añadí el Scanner y adapté el código para que funcionase con el scanner
 */
 
 public class Tema9Ejercicio5Array {
