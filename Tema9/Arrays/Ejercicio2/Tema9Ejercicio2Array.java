@@ -27,5 +27,6 @@ public class Tema9Ejercicio2Array {
     gato[3].come(3);
     gato[2].come(2);
     gato[0].come(2);
+    gato[1].come(8);
   }
 }

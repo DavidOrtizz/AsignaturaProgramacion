@@ -16,7 +16,7 @@ public class ArrayGato2 {
   }
 
   public void come(int come) {
-    if (come <= 10) {
+    if (come < 10) {
       this.comida += come;
       for (int i = 1; i <= come; i++) {
         if (0 <= comedero) {
