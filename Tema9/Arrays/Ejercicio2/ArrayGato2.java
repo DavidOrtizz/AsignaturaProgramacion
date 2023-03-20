@@ -2,7 +2,7 @@ public class ArrayGato2 {
   private String color;
   private int comida = 10;
 
-  public GatoArray(String color) {
+  GatoArray(String color) {
     this.color = color;
   }
 
