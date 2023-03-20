@@ -22,7 +22,7 @@ import java.util.Scanner;
 
 public class Tema9Ejercicio5Array {
   public static void main(String[] args) {
-    Scanner s = Scanner(System.in);
+    Scanner s = new Scanner(System.in);
 
     int N = 100;
     int opcion;
@@ -98,7 +98,7 @@ public class Tema9Ejercicio5Array {
             existeCodigo = true;
             while (existeCodigo) {
               existeCodigo = false;
-              codigoIntroducido = System.console().readLine();
+              codigoIntroducido = s.next();
               for (i = 0; i < N; i++) {
                 if (codigoIntroducido.equals(articulo[i].getCodigo())) {
                   existeCodigo = true;
@@ -111,16 +111,16 @@ public class Tema9Ejercicio5Array {
             } // while (existeCodigo)
             articulo[primeraLibre].setCodigo(codigoIntroducido);
             System.out.print("Descripcion: ");
-            descripcionIntroducida = System.console().readLine();
+            descripcionIntroducida = s.next();
             articulo[primeraLibre].setDescripcion(descripcionIntroducida);
             System.out.print("Precio de compra: ");
-            precioDeCompraIntroducido = Double.parseDouble(System.console().readLine());
+            precioDeCompraIntroducido = Double.parseDouble(s.next());
             articulo[primeraLibre].setPrecioDeCompra(precioDeCompraIntroducido);
             System.out.print("Precio de venta: ");
-            precioDeVentaIntroducido = Double.parseDouble(System.console().readLine());
+            precioDeVentaIntroducido = Double.parseDouble(s.next());
             articulo[primeraLibre].setPrecioDeVenta(precioDeVentaIntroducido);
             System.out.print("Stock: ");
-            stockIntroducido = Integer.parseInt(System.console().readLine());
+            stockIntroducido = Integer.parseInt(s.next());
             articulo[primeraLibre].setStock(stockIntroducido);
           }
           break;
@@ -131,7 +131,7 @@ public class Tema9Ejercicio5Array {
           System.out.println("BAJA");
           System.out.println("====");
           System.out.print("Por favor, introduzca el código del artículo que desea dar de baja: ");
-          codigoIntroducido = s.nextInt();
+          codigoIntroducido = s.next();
           i = -1;
           codigo = "";
           do {
@@ -154,7 +154,7 @@ public class Tema9Ejercicio5Array {
           System.out.println("MODIFICACIÓN");
           System.out.println("============");
           System.out.print("Por favor, introduzca el código del artículo cuyos datos desea cambiar: ");
-          codigoIntroducido = s.nextInt();
+          codigoIntroducido = s.next();
           i = -1;
           do {
             i++;
@@ -162,31 +162,31 @@ public class Tema9Ejercicio5Array {
           System.out.println("Introduzca los nuevos datos del artículo o INTRO para dejarlos igual.");
           System.out.println("Código: " + articulo[i].getCodigo());
           System.out.print("Nuevo código: ");
-          codigoIntroducido = s.nextInt();
+          codigoIntroducido = s.next();
           if (!codigoIntroducido.equals("")) {
             articulo[i].setCodigo(codigoIntroducido);
           }
           System.out.println("Descripción: " + articulo[i].getDescripcion());
           System.out.print("Nueva descripción: ");
-          descripcionIntroducida = s.nextInt();
+          descripcionIntroducida = s.next();
           if (!descripcionIntroducida.equals("")) {
             articulo[i].setDescripcion(descripcionIntroducida);
           }
           System.out.println("Precio de compra: " + articulo[i].getPrecioDeCompra());
           System.out.print("Nuevo precio de compra: ");
-          precioDeCompraIntroducidoString = s.nextInt();
+          precioDeCompraIntroducidoString = s.next();
           if (!precioDeCompraIntroducidoString.equals("")) {
             articulo[i].setPrecioDeCompra(Double.parseDouble(precioDeCompraIntroducidoString));
           }
           System.out.println("Precio de venta: " + articulo[i].getPrecioDeVenta());
           System.out.print("Nuevo precio de venta: ");
-          precioDeVentaIntroducidoString = s.nextInt();
+          precioDeVentaIntroducidoString = s.next();
           if (!precioDeVentaIntroducidoString.equals("")) {
             articulo[i].setPrecioDeVenta(Double.parseDouble(precioDeVentaIntroducidoString));
           }
           System.out.println("Stock: " + articulo[i].getStock());
           System.out.print("Nuevo stock: ");
-          stockIntroducidoString = s.nextInt();
+          stockIntroducidoString = s.next();
           if (!stockIntroducidoString.equals("")) {
             articulo[i].setStock(Integer.parseInt(stockIntroducidoString));
           }
@@ -198,7 +198,7 @@ public class Tema9Ejercicio5Array {
           System.out.println("ENTRADA DE MERCANCÍA");
           System.out.println("====================");
           System.out.print("Por favor, introduzca el código del artículo: ");
-          codigoIntroducido = s.nextInt();
+          codigoIntroducido = s.next();
           i = -1;
           codigo = "";
           do {
@@ -213,7 +213,7 @@ public class Tema9Ejercicio5Array {
             System.out.println("Entrada de mercancía del siguiente artículo: ");
             System.out.println(articulo[i]);
             System.out.print("Introduzca el número de unidades que entran al almacén: ");
-            stockIntroducidoString = s.nextInt();
+            stockIntroducidoString = s.next();
             articulo[i].setStock(Integer.parseInt(stockIntroducidoString) + articulo[i].getStock());
             System.out.println("La mercancía ha entrado en el almacén.");
           }
@@ -225,7 +225,7 @@ public class Tema9Ejercicio5Array {
           System.out.println("SALIDA DE MERCANCÍA");
           System.out.println("===================");
           System.out.print("Por favor, introduzca el código del artículo: ");
-          codigoIntroducido = s.nextInt();
+          codigoIntroducido = s.next();
           i = -1;
           codigo = "";
           do {
@@ -240,7 +240,7 @@ public class Tema9Ejercicio5Array {
             System.out.println("Salida de mercancía del siguiente artículo: ");
             System.out.println(articulo[i]);
             System.out.print("Introduzca el número de unidades que desea sacar del almacén: ");
-            stockIntroducido = Integer.parseInt(s.nextInt());
+            stockIntroducido = Integer.parseInt(s.next());
             if (articulo[i].getStock() - stockIntroducido > 0) {
               articulo[i].setStock(articulo[i].getStock() - stockIntroducido);
               System.out.println("La mercancía ha salido del almacén.");
@@ -249,7 +249,7 @@ public class Tema9Ejercicio5Array {
             }
           }
           break;
-      } // switch } while (opcion != 7);
-    } while (opcion != 7);
+      }
+    } while (opcion != 7); // switch
   }
 }
