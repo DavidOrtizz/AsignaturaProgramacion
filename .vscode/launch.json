@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tema9EjercicioExtra1",
+            "request": "launch",
+            "mainClass": "Tema9EjercicioExtra1",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Tema9Ejercicio1Array",
             "request": "launch",
             "mainClass": "Tema9Ejercicio1Array",
