@@ -31,7 +31,7 @@ public class Tema9EjercicioExtra1 {
     int cantidad;
 
     Producto[] producto = new Producto[tam];
-    Producto[] borrado = new Producto[tam]; // Solo sirve para borrar el array producto
+    Producto[] borrado = new Producto[1]; // Solo sirve para borrar el array producto
 
     for (int i = 0; i < tam; i++) { // Crea todos los productos
       producto[i] = new Producto();
@@ -82,11 +82,18 @@ public class Tema9EjercicioExtra1 {
 
         case "4":
           System.out.println("Has seleccionado insertar un producto en medio de la lista");
+          seleccion = tam / 2;
+          System.out.print("Introduce el nombre del producto: ");
+          nombre = s.next(); // Guarda el nombre
+          producto[seleccion].setNombre(nombre); // Guarda el nombre en el String
+          System.out.print("Introduce la cantidad de producto que vas a añadir: ");
+          cantidad = s.nextInt();
+          producto[seleccion].setCantidad(cantidad);
           break;
 
         case "5":
           System.out.println("Has seleccionado eliminar todos los producto");
-          System.out.print("¿Estás seguro de que quieres borrar todos los productos? (Si estas seguro pon si) ");
+          System.out.print("¿Estás seguro de que quieres borrar todos los productos? (Si estas seguro pon 'si') ");
           pregunta = s.next();
           pregunta = pregunta.toLowerCase();
           switch (pregunta) {
