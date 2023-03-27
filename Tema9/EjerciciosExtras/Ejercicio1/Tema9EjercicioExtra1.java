@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-/*@Autor: David Ortiz Corchero
+/*@autor: David Ortiz Corchero
 *
-*@Curso: 1ºDAM Tarde
+*@curso: 1ºDAM Tarde
 *
-*@Descripción: Supongamos una clase Producto con dos atributos:
+*@descripción: Supongamos una clase Producto con dos atributos:
 * • String nombre
 * • int cantidad
 * 
