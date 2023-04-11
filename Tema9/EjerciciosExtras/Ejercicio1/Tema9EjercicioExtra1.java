@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/*@autor: David Ortiz Corchero
+/*@author: David Ortiz Corchero
 *
 *@curso: 1ºDAM Tarde
 *
