@@ -9,7 +9,7 @@ public class Zona {
     return entradasPorVender;
   }
 
-  /**
+  /*
    * Vende un número de entradas.
    * Comprueba si quedan entradas libres antes de realizar la venta.
    *
