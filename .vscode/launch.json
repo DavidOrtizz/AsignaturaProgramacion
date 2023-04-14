@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProbarExcepcionesthrow",
+            "request": "launch",
+            "mainClass": "ProbarExcepcionesthrow",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Tema14Ejercicio11",
             "request": "launch",
             "mainClass": "Tema14Ejercicio11",
