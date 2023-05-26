@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PruebaClaseCarta",
+            "request": "launch",
+            "mainClass": "PruebaClaseCarta",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "ProbarExcepcionesthrow",
             "request": "launch",
             "mainClass": "ProbarExcepcionesthrow",
